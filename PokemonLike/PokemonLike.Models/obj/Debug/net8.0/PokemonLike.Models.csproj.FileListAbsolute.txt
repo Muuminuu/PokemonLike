@@ -1,0 +1,16 @@
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\bin\Debug\net8.0\PokemonLike.Models.deps.json
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\bin\Debug\net8.0\PokemonLike.Models.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\bin\Debug\net8.0\PokemonLike.Models.pdb
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.AssemblyInfoInputs.cache
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.AssemblyInfo.cs
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.csproj.CoreCompileInputs.cache
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\refint\PokemonLike.Models.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.pdb
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\ref\PokemonLike.Models.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.sourcelink.json
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\bin\Debug\net8.0\PokemonLike.Utilities.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\bin\Debug\net8.0\PokemonLike.Utilities.pdb
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonLike.Models.csproj.AssemblyReference.cache
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\obj\Debug\net8.0\PokemonL.8875C451.Up2Date

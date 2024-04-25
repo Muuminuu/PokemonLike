@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qYv6WUtumBdwUwm/nU02rV3OxyYRI2KcSd/fs2r6Jqt/Ns2yX9UWhYSW/aXPWD8aOD6IytsJPdi8mYZ/nzn9hw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\69VFOMT104-15\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
