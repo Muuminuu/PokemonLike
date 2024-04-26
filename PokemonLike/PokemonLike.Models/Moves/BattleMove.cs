@@ -26,22 +26,27 @@ namespace PokemonLike.Models.Moves
             statusAction = statusAction;
         }
 
+        /*
+        public double CalculateDamage(Monsters.BattleMonster user, Monsters.BattleMonster target)
+        {
+            var isCrit = Utilities.Calculator.RngIsWithinRange(6.25);
+            return Utilities.Calculator.Round(Utilities.Calculator.CalculateDamage(
+            aLevel: user.Level,
+            aPower: Power,
+            aAttack: user.Attack,
+            dDefense: target.Defense,
+            numberOfTargets: 1,
+            isCritical: isCrit,
+            isSTAB: user.Type == Type,
+            // when we have non physical attacks, this needs to handle that. burn modifier only applies to physical attacks ?????
+            applyBurnModifier: user.ActiveStatus == StatusEffect.Burn
+            ));
+        }
+        */
+         /*
         public void Perform(Monsters.BattleMonster user, Monsters.BattleMonster target)
         {
-            System.Diagnostics.Debug.WriteLine("Performing " + Name + " on " + target.Name);
-            var isCrit = Utilities.Calculator.RngIsWithinRange(6.25);
-            var dmg = Utilities.Calculator.Round(Utilities.Calculator.CalculateDamage(
-                aLevel: user.Level,
-                aPower: Power,
-                aAttack: user.Attack,
-                dDefense: target.Defense,
-                numberOfTargets: 1,
-                isCritical: isCrit,
-                isSTAB: user.Type == Type,
-                // when we have non physical attacks, this needs to handle that. burn modifier only applies to physical attacks ?????
-                applyBurnModifier: user.ActiveStatus == StatusEffect.Burn
-
-                ));
+            var dmg = Convert.ToInt32(CalculateDamage(user, target));
 
             var status = StatusAction?.Invoke() ?? StatusEffect.None;
             target.ApplyStatus(status);
@@ -49,5 +54,6 @@ namespace PokemonLike.Models.Moves
             System.Diagnostics.Debug.WriteLine($"{user.Name} inflicted {dmg} damage on {target.Name} using {Name}!");
             target.TakeDamage(dmg);
         }
+         */
     }
 }

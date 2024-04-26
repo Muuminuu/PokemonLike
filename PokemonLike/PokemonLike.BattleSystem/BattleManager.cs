@@ -1,12 +1,13 @@
 ﻿using System;
 using PokemonLike.BattleSystem.Exceptions;
+using PokemonLike.Models;
 using PokemonLike.Models.Players;
 
 namespace PokemonLike.BattleSystem
 {
     public class BattleManager
     {        
-        public void StartBattle(BasePlayer playerOne, BasePlayer playerTwo)
+        public void StartBattle(BasePlayer playerOne, BasePlayer playerTwo, Action<ITurnResult?>? onTurnResult = null)
         {
             var playerOneMonster = playerOne.CurrentPokemon;
             var playerTwoMonster = playerTwo.CurrentPokemon;
@@ -29,7 +30,11 @@ namespace PokemonLike.BattleSystem
             do
             {
 
-                startingPlayer.StartTurn(otherPlayer);
+                var result = startingPlayer.StartTurn(otherPlayer);
+
+                result?.Apply();
+                onTurnResult?.Invoke(result);
+
                 var tmp = startingPlayer;
                 startingPlayer = otherPlayer;
                 otherPlayer = tmp;

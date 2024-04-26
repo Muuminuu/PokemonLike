@@ -11,6 +11,7 @@
     <ProjectReference Include="..\PokemonLike.BattleSystem\PokemonLike.BattleSystem.csproj" />
     <ProjectReference Include="..\PokemonLike.Models\PokemonLike.Models.csproj" />
     <ProjectReference Include="..\PokemonLike.Repositories\PokemonLike.Repositories.csproj" />
+    <ProjectReference Include="..\PokemonLike.Services\PokemonLike.Services.csproj" />
     <ProjectReference Include="..\PokemonLike.Utilities\PokemonLike.Utilities.csproj" />
   </ItemGroup>
 

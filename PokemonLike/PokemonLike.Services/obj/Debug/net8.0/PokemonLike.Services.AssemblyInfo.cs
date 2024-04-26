@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonLike.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6050e774bdb914cdf8635ccb0cb0103f3ad7a43e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b1d4c1b192557599c3c0897526b0ac192206785")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonLike.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonLike.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

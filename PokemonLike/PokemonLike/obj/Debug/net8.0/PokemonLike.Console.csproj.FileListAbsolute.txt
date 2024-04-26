@@ -24,3 +24,5 @@ C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike\obj\Debug\net8.0\ref
 C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike\bin\Debug\net8.0\PokemonLike.Utilities.dll
 C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike\bin\Debug\net8.0\PokemonLike.Utilities.pdb
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike\bin\Debug\net8.0\PokemonLike.Services.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike\bin\Debug\net8.0\PokemonLike.Services.pdb

@@ -32,38 +32,58 @@ namespace PokemonLike.Console
             System.Console.Clear();
         }
 
+
+        BasePlayer _bottomPlayerRef;
+        BasePlayer _topPlayerRef;
         public void DisplayBattleState(BasePlayer activePlayer, BasePlayer targetPlayer)
         {
             Clear();
+
+            if (_bottomPlayerRef == null || _topPlayerRef == null) 
+            {
+                if (activePlayer is HumanPlayer hPlayer)
+                {
+                    _bottomPlayerRef = activePlayer;
+                    _topPlayerRef = targetPlayer;
+                }
+                else
+                {
+                    _bottomPlayerRef = targetPlayer;
+                    _topPlayerRef = activePlayer;
+                }
+            }
+
             // ---------------------------------------------------
             //                      Game Title
             // ---------------------------------------------------
             //                                      Ai Player2
             //                              Charmander (Lv1)
             //                              [========= ] 25/30    
-            // >> Muuminuu
+            // >> Muuminuu <<
             //      Bulbasaur (Lv 1)
             //      [=====     ] 13/26
             // ----------------------------------------------------
             DisplayTitle("PokemonLike Battle");
             var currentColor = System.Console.ForegroundColor;
             System.Console.ForegroundColor = ConsoleColor.Green;
-            DisplayMessage(string.Format(
-                "{0,65}\n" +
+            var display = string.Format(
+                "{0,65}    \n" +
                 "{1,65}\n" +
                 "{2,65}\n" +
 
-                "{3}\n" +
-                "{4}\n" +
-                "{5}\n" +
+                "    {3}    \n" +
+                "    {4}\n" +
+                "    {5}\n" +
                 "===================================================================\n",
-                targetPlayer.Name,
-                $"{targetPlayer.CurrentPokemon?.Name} (Lv{targetPlayer.CurrentPokemon?.Level})",
-                GetHealthBar(targetPlayer.CurrentPokemon),
-                
-                activePlayer.Name,
-                $"{activePlayer.CurrentPokemon?.Name} (Lv{activePlayer.CurrentPokemon?.Level}",
-                GetHealthBar(activePlayer.CurrentPokemon)));
+                _topPlayerRef.Name,
+                $"{_topPlayerRef.CurrentPokemon?.Name} (Lv{_topPlayerRef.CurrentPokemon?.Level})",
+                GetHealthBar(_topPlayerRef.CurrentPokemon),
+
+                _bottomPlayerRef.Name,
+                $"{_bottomPlayerRef.CurrentPokemon?.Name} (Lv{_bottomPlayerRef.CurrentPokemon?.Level}",
+                GetHealthBar(_bottomPlayerRef.CurrentPokemon));
+
+            DisplayMessage(display.Replace($"    {activePlayer.Name}    ", $" >> {activePlayer.Name} << "));
 
             System.Console.ForegroundColor = currentColor;
         }

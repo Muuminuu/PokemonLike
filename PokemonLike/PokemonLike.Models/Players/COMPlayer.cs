@@ -9,7 +9,7 @@ namespace PokemonLike.Models.Players
 
         }
 
-        public override void StartTurn(BasePlayer targetPlayer)
+        public override ITurnResult? StartTurn(BasePlayer targetPlayer)
         {
             base.StartTurn(targetPlayer);
             throw new NotImplementedException();

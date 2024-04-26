@@ -1,0 +1,12 @@
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\bin\Debug\net8.0\PokemonLike.Services.deps.json
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\bin\Debug\net8.0\PokemonLike.Services.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\bin\Debug\net8.0\PokemonLike.Services.pdb
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\PokemonLike.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\PokemonLike.Services.AssemblyInfoInputs.cache
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\PokemonLike.Services.AssemblyInfo.cs
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\PokemonLike.Services.csproj.CoreCompileInputs.cache
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\PokemonLike.Services.sourcelink.json
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\PokemonLike.Services.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\refint\PokemonLike.Services.dll
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\PokemonLike.Services.pdb
+C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Services\obj\Debug\net8.0\ref\PokemonLike.Services.dll

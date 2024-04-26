@@ -16,8 +16,8 @@ public class Program
         var battleManager = new BattleSystem.BattleManager();
 
         // may have to change input and display in the right order, but error ??
-        var playerOne = new HumanPlayer("Muuminuu", inputManager, displayManager);
-        var playerTwo = new HumanPlayer("AI Player 2", inputManager, displayManager);
+        var playerOne = new HumanPlayer("Muuminuu", displayManager, inputManager);
+        var playerTwo = new HumanPlayer("AI Player 2", displayManager, inputManager);
 
         var moveRepository = new BattleMoveRepository();
         var monsterRepository = new BattleMonsterRepository();
@@ -53,7 +53,20 @@ public class Program
         {
             displayManager.DisplayTitle("PokemonLike");
             displayManager.DisplayMessage($"Starting Battle between {playerOne.Name} and {playerTwo.Name}!");
-            battleManager.StartBattle(playerOne, playerTwo);
+
+            battleManager.StartBattle(playerOne, playerTwo, (TurnResult) =>
+            {
+                // move this to the visitor pattern
+                if (TurnResult is AttackTurnResult attackResult)
+                {
+                    displayManager.DisplayMessage($"{attackResult.Pokemon?.Name} inflicted {attackResult.Damage} damage on {attackResult.Target?.Name} using {attackResult.Value?.Name}!");
+                    System.Console.ReadLine();
+                }
+                else if (TurnResult is SwapTurnResult swapResult)
+                {
+                    displayManager.DisplayMessage($"");
+                }
+            });
 
             var loser = playerOne.CurrentPokemon == null ? playerOne : playerTwo;
             var winner = playerOne.CurrentPokemon == null ? playerTwo : playerOne;

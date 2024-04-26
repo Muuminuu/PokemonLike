@@ -1,31 +1,30 @@
-﻿using PokemonLike.Models.Items;
-using PokemonLike.Models.Monsters;
+﻿using PokemonLike.Models;
+using PokemonLike.Models.Moves;
+using PokemonLike.Models.Players;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
-namespace PokemonLike.Models.Players
+namespace PokemonLike.Console
 {
     public class HumanPlayer : BasePlayer
     {
         private IUserInputManager _inputManager;
 
-        public HumanPlayer(string name, IUserInputManager inputManager, IDisplayManager displayManager) : base(name, displayManager)
+        public HumanPlayer(string name, IDisplayManager displayManager, IUserInputManager inputManager) : base(name, displayManager)
         {
             _inputManager = inputManager;
         }
 
-        public override void StartTurn(BasePlayer targetPlayer)
+        public override ITurnResult? StartTurn(BasePlayer targetPlayer)
         {
             base.StartTurn(targetPlayer);
             if (CurrentPokemon == null)
             {
                 DisplayManager.DisplayMessage($"{Name} is out of pokemon. {Name} blacked out");
-                return;
+                return TurnResult.Default;
             }
 
             var userChoice = _inputManager.GetUserSelection($"It is {Name}'s turn. What would you like to do?\n" +
@@ -44,42 +43,55 @@ namespace PokemonLike.Models.Players
                         if (choice <= 0 || choice >= CurrentPokemon.MoveList.Count + 1)
                         {
                             // Cancel
-                            StartTurn(targetPlayer);
+                            return StartTurn(targetPlayer);
                         }
                         else
                         {
-                            CurrentPokemon.MoveList[choice - 1].Perform(CurrentPokemon, targetPlayer.CurrentPokemon);
+                            var target = targetPlayer.CurrentPokemon;
+                            var battleMove = CurrentPokemon.MoveList[choice - 1];
+
+                            return new AttackTurnResult
+                            {
+                                Action =  TurnAction.ApplyDamage,
+                                // todo : chnge value to attack
+                                Value = battleMove,
+                                AppliedStatusCondition = battleMove.StatusAction?.Invoke() ?? StatusEffect.None,
+                                Pokemon = CurrentPokemon,
+                                Target = target
+                            };
                         }
-                        break;
                     }
                 case 2: // pokemon
                     {
                         var choice = MakeSelection(Party, $"Which pokemon would you swap in?");
                         if (choice <= 0 || choice >= Party?.Count + 1)
                         {
-                            StartTurn(targetPlayer);
+                            return StartTurn(targetPlayer);
                         }
                         else
                         {
+                            if (Party == null)
+                                return TurnResult.Default;
+
                             var swap = Party[choice - 1];
                             if (swap == CurrentPokemon)
                             {
                                 DisplayManager.DisplayMessage($"{CurrentPokemon.Name} is already out!");
-                                StartTurn(targetPlayer);
+                                return StartTurn(targetPlayer);
                             }
                             else
                             {
                                 DisplayManager.DisplayMessage($"{CurrentPokemon.Name}, come back! Go {swap.Name}!");
-                                Party.Remove(swap);
-                                Party.Insert(0, swap);
+                                return new SwapTurnResult
+                                {
+                                    Action = TurnAction.SwapPokemon,
+                                    Pokemon = swap,
+                                    Party = Party
+                                };
                             }
                         }
-                        break;
                     }
                 case 3: // bag
-                    {
-
-                    }
                     MakeSelection(emptyItemList, "Bag is empty");
                     // only option sshould be Cancel
 
@@ -94,6 +106,8 @@ namespace PokemonLike.Models.Players
                 default: // should b unreachable
                     break;
             }
+
+            return StartTurn(targetPlayer);
         }
 
         private int MakeSelection<T>(IList<T>? collection, string prompt) where T : INamed
@@ -112,5 +126,5 @@ namespace PokemonLike.Models.Players
             sb.AppendLine($"{++index}. Cancel");
             return _inputManager.GetUserSelection($"{prompt} \n{sb}", 1, index);
         }
-    } 
+    }
 }

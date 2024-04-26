@@ -33,9 +33,10 @@ namespace PokemonLike.Models.Players
             return sb.ToString();
         }
 
-        public virtual void StartTurn(BasePlayer targetPlayer)
+        public virtual ITurnResult? StartTurn(BasePlayer targetPlayer)
         {
             DisplayManager.DisplayBattleState(this, targetPlayer);
+            return TurnResult.Default;
         }
     }
 }

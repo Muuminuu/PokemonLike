@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{903BB6F7-FDD2-4122-8C0B-1B01A3D7416E}|PokemonLike.Utilities\\PokemonLike.Utilities.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.utilities\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{903BB6F7-FDD2-4122-8C0B-1B01A3D7416E}|PokemonLike.Utilities\\PokemonLike.Utilities.csproj|solutionrelative:pokemonlike.utilities\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EC648B-202A-4353-8458-7212A613007F}|PokemonLike.Repositories\\PokemonLike.Repositories.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.repositories\\battlemoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EC648B-202A-4353-8458-7212A613007F}|PokemonLike.Repositories\\PokemonLike.Repositories.csproj|solutionrelative:pokemonlike.repositories\\battlemoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike\\humanplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|solutionrelative:pokemonlike\\humanplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|solutionrelative:pokemonlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\turnresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\turnresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B311AA24-2733-485D-B566-C30C23A9B37C}|PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.battlesystem\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B311AA24-2733-485D-B566-C30C23A9B37C}|PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj|solutionrelative:pokemonlike.battlesystem\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\moves\\battlemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,28 +27,8 @@
       "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\monsters\\battlemonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\pokemonlike.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\pokemonlike.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EC648B-202A-4353-8458-7212A613007F}|PokemonLike.Repositories\\PokemonLike.Repositories.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.repositories\\battlemonsterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EC648B-202A-4353-8458-7212A613007F}|PokemonLike.Repositories\\PokemonLike.Repositories.csproj|solutionrelative:pokemonlike.repositories\\battlemonsterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\idisplaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\idisplaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike\\displaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|solutionrelative:pokemonlike\\displaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B311AA24-2733-485D-B566-C30C23A9B37C}|PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.battlesystem\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B311AA24-2733-485D-B566-C30C23A9B37C}|PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj|solutionrelative:pokemonlike.battlesystem\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\players\\humanplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\players\\humanplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EC648B-202A-4353-8458-7212A613007F}|PokemonLike.Repositories\\PokemonLike.Repositories.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.repositories\\battlemoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EC648B-202A-4353-8458-7212A613007F}|PokemonLike.Repositories\\PokemonLike.Repositories.csproj|solutionrelative:pokemonlike.repositories\\battlemoverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\players\\baseplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,6 +37,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\players\\complayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\players\\complayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\pokemonlike.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\pokemonlike.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike\\displaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C34FF5A2-93D5-4D64-9092-A724FA68D085}|PokemonLike\\PokemonLike.Console.csproj|solutionrelative:pokemonlike\\displaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903BB6F7-FDD2-4122-8C0B-1B01A3D7416E}|PokemonLike.Utilities\\PokemonLike.Utilities.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.utilities\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903BB6F7-FDD2-4122-8C0B-1B01A3D7416E}|PokemonLike.Utilities\\PokemonLike.Utilities.csproj|solutionrelative:pokemonlike.utilities\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\idisplaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|solutionrelative:pokemonlike.models\\idisplaymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5254577-60BF-41C3-A900-C996B09B1180}|PokemonLike.Models\\PokemonLike.Models.csproj|c:\\users\\69vfomt104-15\\source\\repos\\pokemonlike\\pokemonlike.models\\iuserinputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,84 +123,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Calculator.cs",
-              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Utilities\\Calculator.cs",
-              "RelativeDocumentMoniker": "PokemonLike.Utilities\\Calculator.cs",
-              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Utilities\\Calculator.cs",
-              "RelativeToolTip": "PokemonLike.Utilities\\Calculator.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Title": "HumanPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\HumanPlayer.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\HumanPlayer.cs",
+              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\HumanPlayer.cs",
+              "RelativeToolTip": "PokemonLike\\HumanPlayer.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:53:56.254Z",
+              "WhenOpened": "2024-04-26T06:20:23.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\Program.cs",
               "RelativeDocumentMoniker": "PokemonLike\\Program.cs",
               "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\Program.cs",
               "RelativeToolTip": "PokemonLike\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAA2AAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAqwEIAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T13:13:40.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BattleManager.cs",
-              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\BattleManager.cs",
-              "RelativeDocumentMoniker": "PokemonLike.BattleSystem\\BattleManager.cs",
-              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\BattleManager.cs",
-              "RelativeToolTip": "PokemonLike.BattleSystem\\BattleManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:20:58.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HumanPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\HumanPlayer.cs",
-              "RelativeDocumentMoniker": "PokemonLike.Models\\Players\\HumanPlayer.cs",
-              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\HumanPlayer.cs",
-              "RelativeToolTip": "PokemonLike.Models\\Players\\HumanPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T09:24:04.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BasePlayer.cs",
-              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\BasePlayer.cs",
-              "RelativeDocumentMoniker": "PokemonLike.Models\\Players\\BasePlayer.cs",
-              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\BasePlayer.cs",
-              "RelativeToolTip": "PokemonLike.Models\\Players\\BasePlayer.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T13:59:16.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "COMPlayer.cs",
               "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\COMPlayer.cs",
               "RelativeDocumentMoniker": "PokemonLike.Models\\Players\\COMPlayer.cs",
               "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\COMPlayer.cs",
               "RelativeToolTip": "PokemonLike.Models\\Players\\COMPlayer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T07:19:09.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "PokemonLike.Models.csproj",
               "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\PokemonLike.Models.csproj",
               "RelativeDocumentMoniker": "PokemonLike.Models\\PokemonLike.Models.csproj",
@@ -213,33 +174,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BattleMove.cs",
               "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Moves\\BattleMove.cs",
               "RelativeDocumentMoniker": "PokemonLike.Models\\Moves\\BattleMove.cs",
               "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Moves\\BattleMove.cs",
               "RelativeToolTip": "PokemonLike.Models\\Moves\\BattleMove.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAACgAAACFAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAgwDgAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T13:53:09.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BattleMonster.cs",
               "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Monsters\\BattleMonster.cs",
               "RelativeDocumentMoniker": "PokemonLike.Models\\Monsters\\BattleMonster.cs",
               "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Monsters\\BattleMonster.cs",
               "RelativeToolTip": "PokemonLike.Models\\Monsters\\BattleMonster.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAiwG0AAAAJAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAUwG0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-23T13:23:31Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "BattleMoveRepository.cs",
               "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Repositories\\BattleMoveRepository.cs",
               "RelativeDocumentMoniker": "PokemonLike.Repositories\\BattleMoveRepository.cs",
@@ -252,20 +213,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BattleMonsterRepository.cs",
-              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Repositories\\BattleMonsterRepository.cs",
-              "RelativeDocumentMoniker": "PokemonLike.Repositories\\BattleMonsterRepository.cs",
-              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Repositories\\BattleMonsterRepository.cs",
-              "RelativeToolTip": "PokemonLike.Repositories\\BattleMonsterRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "DocumentIndex": 7,
+              "Title": "BasePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\BasePlayer.cs",
+              "RelativeDocumentMoniker": "PokemonLike.Models\\Players\\BasePlayer.cs",
+              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\Players\\BasePlayer.cs",
+              "RelativeToolTip": "PokemonLike.Models\\Players\\BasePlayer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T17:57:31.448Z",
+              "WhenOpened": "2024-04-23T13:59:16.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\BattleManager.cs",
+              "RelativeDocumentMoniker": "PokemonLike.BattleSystem\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\BattleManager.cs",
+              "RelativeToolTip": "PokemonLike.BattleSystem\\BattleManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:20:58.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TurnResult.cs",
+              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\TurnResult.cs",
+              "RelativeDocumentMoniker": "PokemonLike.Models\\TurnResult.cs",
+              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\TurnResult.cs",
+              "RelativeToolTip": "PokemonLike.Models\\TurnResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T07:37:30.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Utilities\\Calculator.cs",
+              "RelativeDocumentMoniker": "PokemonLike.Utilities\\Calculator.cs",
+              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Utilities\\Calculator.cs",
+              "RelativeToolTip": "PokemonLike.Utilities\\Calculator.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:53:56.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DisplayManager.cs",
+              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\DisplayManager.cs",
+              "RelativeDocumentMoniker": "PokemonLike\\DisplayManager.cs",
+              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\DisplayManager.cs",
+              "RelativeToolTip": "PokemonLike\\DisplayManager.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAIwEsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T09:09:36.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "IDisplayManager.cs",
               "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\IDisplayManager.cs",
               "RelativeDocumentMoniker": "PokemonLike.Models\\IDisplayManager.cs",
@@ -273,8 +286,7 @@
               "RelativeToolTip": "PokemonLike.Models\\IDisplayManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T12:15:51.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T12:15:51.64Z"
             },
             {
               "$type": "Document",
@@ -286,8 +298,7 @@
               "RelativeToolTip": "PokemonLike.Models\\IUserInputManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T09:48:56.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T09:48:56.831Z"
             },
             {
               "$type": "Document",
@@ -299,21 +310,7 @@
               "RelativeToolTip": "PokemonLike.Repositories\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:01:12.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DisplayManager.cs",
-              "DocumentMoniker": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\DisplayManager.cs",
-              "RelativeDocumentMoniker": "PokemonLike\\DisplayManager.cs",
-              "ToolTip": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike\\DisplayManager.cs",
-              "RelativeToolTip": "PokemonLike\\DisplayManager.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAIwEYAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T09:09:36.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T18:01:12.666Z"
             },
             {
               "$type": "Document",

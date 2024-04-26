@@ -11,6 +11,7 @@
           "PokemonLike.BattleSystem": "1.0.0",
           "PokemonLike.Models": "1.0.0",
           "PokemonLike.Repositories": "1.0.0",
+          "PokemonLike.Services": "1.0.0",
           "PokemonLike.Utilities": "1.0.0"
         },
         "runtime": {
@@ -51,6 +52,11 @@
           "PokemonLike.Repositories.dll": {}
         }
       },
+      "PokemonLike.Services/1.0.0": {
+        "runtime": {
+          "PokemonLike.Services.dll": {}
+        }
+      },
       "PokemonLike.Utilities/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
@@ -85,6 +91,11 @@
       "sha512": ""
     },
     "PokemonLike.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PokemonLike.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
