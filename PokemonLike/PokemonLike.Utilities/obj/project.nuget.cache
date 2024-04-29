@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wWJfsUENbRjonqjmhgtBl08C2SLyePr/piaFLX+lT064+Gpf6qqfe24Wu0lgZQjIqcAVcaxCuOkFACNt+9J0vg==",
+  "dgSpecHash": "yUZNFT2fUqDlAZMcIS8KZT0uoGxJB5zbHLOlrOK+ndXw8vTEa6jBruiulVdxh+X1XlePyO5y3C9BuQ7h3XYaBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Utilities\\PokemonLike.Utilities.csproj",
+  "projectFilePath": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Utilities\\PokemonLike.Utilities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\69VFOMT104-15\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

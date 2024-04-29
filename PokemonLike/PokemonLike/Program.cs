@@ -60,6 +60,10 @@ public class Program
                 if (TurnResult is AttackTurnResult attackResult)
                 {
                     displayManager.DisplayMessage($"{attackResult.Pokemon?.Name} inflicted {attackResult.Damage} damage on {attackResult.Target?.Name} using {attackResult.Value?.Name}!");
+                    if(attackResult.Target?.CurrentHP <= 0)
+                    {
+                        displayManager.DisplayMessage($"{attackResult.Target?.Name} has fainted");
+                    }
                     System.Console.ReadLine();
                 }
                 else if (TurnResult is SwapTurnResult swapResult)

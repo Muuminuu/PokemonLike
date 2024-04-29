@@ -96,11 +96,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj",
+      "projectUniqueName": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj",
       "projectName": "PokemonLike.BattleSystem",
-      "projectPath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj",
+      "projectPath": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.BattleSystem\\PokemonLike.BattleSystem.csproj",
       "packagesPath": "C:\\Users\\69VFOMT104-15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.BattleSystem\\obj\\",
+      "outputPath": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.BattleSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\69VFOMT104-15\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,8 +117,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\PokemonLike.Models.csproj": {
-              "projectPath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Models\\PokemonLike.Models.csproj"
+            "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Models\\PokemonLike.Models.csproj": {
+              "projectPath": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Models\\PokemonLike.Models.csproj"
             }
           }
         }

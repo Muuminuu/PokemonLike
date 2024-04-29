@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PokemonLike.Models
-build_property.ProjectDir = C:\Users\69VFOMT104-15\source\repos\PokemonLike\PokemonLike.Models\
+build_property.ProjectDir = C:\Users\69VFOMT104-15\Source\Repos\PokemonLike\PokemonLike\PokemonLike.Models\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

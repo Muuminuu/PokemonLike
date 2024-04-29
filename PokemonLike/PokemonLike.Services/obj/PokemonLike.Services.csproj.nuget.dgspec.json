@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj": {}
+    "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj": {
+    "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj",
+        "projectUniqueName": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj",
         "projectName": "PokemonLike.Services",
-        "projectPath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj",
+        "projectPath": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Services\\PokemonLike.Services.csproj",
         "packagesPath": "C:\\Users\\69VFOMT104-15\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\69VFOMT104-15\\source\\repos\\PokemonLike\\PokemonLike.Services\\obj\\",
+        "outputPath": "C:\\Users\\69VFOMT104-15\\Source\\Repos\\PokemonLike\\PokemonLike\\PokemonLike.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\69VFOMT104-15\\AppData\\Roaming\\NuGet\\NuGet.Config",

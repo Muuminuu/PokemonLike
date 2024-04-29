@@ -11,8 +11,8 @@ namespace PokemonLike.Console
 {
     public class HumanPlayer : BasePlayer
     {
+        
         private IUserInputManager _inputManager;
-
         public HumanPlayer(string name, IDisplayManager displayManager, IUserInputManager inputManager) : base(name, displayManager)
         {
             _inputManager = inputManager;
@@ -20,6 +20,7 @@ namespace PokemonLike.Console
 
         public override ITurnResult? StartTurn(BasePlayer targetPlayer)
         {
+            var DisplayManager = new DisplayManager();
             base.StartTurn(targetPlayer);
             if (CurrentPokemon == null)
             {
@@ -77,11 +78,13 @@ namespace PokemonLike.Console
                             if (swap == CurrentPokemon)
                             {
                                 DisplayManager.DisplayMessage($"{CurrentPokemon.Name} is already out!");
+                                System.Console.ReadLine();
                                 return StartTurn(targetPlayer);
                             }
                             else
                             {
                                 DisplayManager.DisplayMessage($"{CurrentPokemon.Name}, come back! Go {swap.Name}!");
+                                System.Console.ReadLine();
                                 return new SwapTurnResult
                                 {
                                     Action = TurnAction.SwapPokemon,

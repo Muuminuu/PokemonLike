@@ -12,7 +12,7 @@ namespace PokemonLike.Repositories
             new Struggle(),
             new BattleMove(2, "Tackle", Models.MonsterType.Normal, 45, "A physical attack in which the user charges, full body, into the foe.", 40, 100),
             new BattleMove(3, "Growl", Models.MonsterType.Normal, 40, "The user growls in an endearing way, making the foe less wary. The target's Attack is lowered.", 0, 100),
-            new BattleMove(4, "Scratch", Models.MonsterType.Normal, 35, "Hard, pointed, sharp claws rake the target to inflict damage.", 40, 100),
+            new BattleMove(4, "Scratch", Models.MonsterType.Normal, 35, "Hard, pointed, sharp claws rake the target to inflict damage.", 400000000, 100),
             new BattleMove(5, "Ember", Models.MonsterType.Fire, 25, "The target is attacked with small flames. this may also leave the target with a burn.", 40, 100, () =>
             {
                 return Utilities.Calculator.RngIsWithinRange(10) ? StatusEffect.Burn : StatusEffect.None;

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonLike.Repositories.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+632083224e10eba56f843fac4a94d72d71db4c7b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+211d0f46bc54405bdb0385805924a56bfbd15c8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonLike.Repositories.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonLike.Repositories.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
